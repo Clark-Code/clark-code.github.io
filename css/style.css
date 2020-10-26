@@ -44,6 +44,38 @@ body {
     padding: 0; 
     } 
 }
+
+
+@keyframes leftIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-5rem); }
+    80% {
+      transform: translateX(0.5rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
+  @keyframes rightIn {
+    0% {
+      opacity: 0;
+      transform: translateX(5rem); }
+    80% {
+      transform: translateX(-0.5rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
+  @keyframes bottomIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-5rem); }
+    80% {
+      transform: translateY(0.5rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
           
 
 .header {
